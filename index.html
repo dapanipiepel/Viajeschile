@@ -20,9 +20,9 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav ml-auto">
             <a class="nav-item nav-link active" href="#">Inicio <span class="sr-only"></span></a>
-            <a class="nav-item nav-link" href="#">Quienes somos</a>
-            <a class="nav-item nav-link" href="#">Destacados</a>
-            <a class="nav-item nav-link" href="#">Contacto</a>
+            <a class="nav-item nav-link" href="#quienes-somos">Quienes somos</a>
+            <a class="nav-item nav-link" href="#destacados">Destacados</a>
+            <a class="nav-item nav-link" href="#contacto">Contacto</a>
     </nav>
     <section class="carrusel">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -47,7 +47,7 @@
             </a>
         </div>
     </section>
-    <section class="py-3" id="quienes-somos">
+    <section class="py-3 d-none d-md-block d-lg-block d-xl-block" id="quienes-somos">
         <div class="container text-center">
             <h2 class="p-3">¿Quiénes somos?</h2>
             <hr class="barrita">
@@ -67,12 +67,12 @@
                         </p>
                     </div>
                     <div class="color-icon-fondo bg-info">
-                        <i class="fas fa-plane fa-2x text-white"></i>
+                        <i class="fas fa-mountain fa-2x text-white"></i>
                     </div>
                 </div>
                 <div class="col-4">
                     <div class="color-icon-fondo bg-info">
-                        <i class="fas fa-plane fa-2x text-white"></i>
+                        <i class="fas fa-route fa-2x text-white"></i>
                     </div>
                     <div class="textleft">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quisquam praesentium architecto, fugit rem, recusandae exercitationem mollitia maiores officia explicabo repudiandae repellat! Temporibus iusto illum iste vel nulla minima libero possimus, illo similique alias ipsam porro sit hic doloribus quia animi fuga dolorem repellendus a quam laboriosam iure. Dolorem, pariatur tenetur temporibus eligendi tempora veritatis? Nulla cum tenetur veritatis sapiente doloribus laudantium, autem dolor dicta illum cupiditate. Eius obcaecati eum, sunt esse repudiandae quaerat dignissimos nostrum praesentium minima quo in beatae culpa ipsum voluptate, cumque, numquam assumenda. Magni tenetur sunt atque, omnis qui, eveniet aliquam asperiores similique provident ipsa fugiat.</p>
@@ -118,7 +118,7 @@
             </div>
         </div>
     </section>
-    <section class="contacto">
+    <section class="contacto" id="contacto">
         <div class="container">
             <h2 class="text-center">Contacto</h2>
             <hr class="barrita">
@@ -134,28 +134,24 @@
                 <div class="col-6">
                         <div class="row py-1">
                         <div class="col-2">
-                            <i class="fab fa-github fa-2x"></i>
+                            <a href="https://www.github.com"><i class="fab fa-github fa-2x"></i></a>
                         </div>
                         <div class="col-2">
-                            <i class="fab fa-linkedin fa-2x"></i>
+                            <a href="https://www.linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
                         </div>
                         <div class="col-2">
-                            <i class="fab fa-twitter-square fa-2x"></i>
+                            <a href="https://www.twitter.com"><i class="fab fa-twitter-square fa-2x"></i></a>
                         </div>
                         <div class="col-2">
-                            <i class="fab fa-facebook-square fa-2x"></i>
+                            <a href="https://www.facebook.com"><i class="fab fa-facebook-square fa-2x"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <!--jQuery 3.5.1-->
-    <script
-    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-    crossorigin="anonymous"
-    ></script>
+    <!--jQuery 3.3.1 sin slim-->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <!--Popper JS 1.16.1-->
     <script
     src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
