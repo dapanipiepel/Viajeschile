@@ -1,3 +1,5 @@
+//ESTE ES EL SMOOTH SCROLL//
+
 $(function(){
 
     $("a").click(function(event){
@@ -17,3 +19,8 @@ $(function(){
     $('[data-toggle="popover"]').popover();
 
 });
+
+//AQUÍ ACTIVO EL TULTIP
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
